@@ -1,9 +1,19 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   height: 100px;
   background-color: lightseagreen;
-  display: flex; /* Flexbox for layout */
-  align-items: center; /* Vertically align content */
-  justify-content: space-between; /* Space out logo and navbar */
+  display: flex;
+  /* Flexbox for layout */
+  align-items: center;
+  /* Vertically align content */
+  justify-content: space-between;
+  /* Space out logo and navbar */
   flex-wrap: wrap;
   padding: 10px 20px;
 }
@@ -18,7 +28,8 @@ body {
 }
 
 main {
-  flex: 1; /* Allows main content to take up remaining space */
+  flex: 1;
+  /* Allows main content to take up remaining space */
 }
 
 footer {
@@ -28,26 +39,33 @@ footer {
 
 .logo {
   background-color: black;
-  height: 75px; /* Control logo size */
+  height: 75px;
+  /* Control logo size */
   width: 75px;
-  object-fit: cover; /* Prevent distortion */
+  object-fit: cover;
+  /* Prevent distortion */
   border: 1px solid black;
   border-radius: 50%;
 }
 
 .navbar {
   color: darkslategray;
-  display: flex; /* Use Flexbox for alignment */
-  justify-content: flex-end; /* Push the links to the right */
-  gap: 15px; /* Add space between links */
+  display: flex;
+  /* Use Flexbox for alignment */
+  justify-content: flex-end;
+  /* Push the links to the right */
+  gap: 15px;
+  /* Add space between links */
 }
 
 .nav-link {
-  color: white !important; /* Set the text color to white */
+  color: white !important;
+  /* Set the text color to white */
 }
 
 .nav-link:hover {
-  color: lightgray !important; /* Optional: Change color on hover */
+  color: lightgray !important;
+  /* Optional: Change color on hover */
 }
 
 /* Media Queries */
