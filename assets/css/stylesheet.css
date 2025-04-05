@@ -49,3 +49,22 @@ footer {
 .nav-link:hover {
   color: lightgray !important; /* Optional: Change color on hover */
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+}
