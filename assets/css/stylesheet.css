@@ -1,0 +1,50 @@
+header {
+  height: 100px;
+  background-color: lightseagreen;
+  display: flex; /* Flexbox for layout */
+  align-items: center; /* Vertically align content */
+  justify-content: space-between; /* Space out logo and navbar */
+  padding: 5px 50px 5px 50px;
+}
+
+body {
+  color: darkslategray;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 1.2rem;
+}
+
+main {
+  flex: 1; /* Allows main content to take up remaining space */
+}
+
+footer {
+  background-color: lightseagreen;
+  font-size: 14px;
+}
+
+.logo {
+  background-color: black;
+  height: 75px; /* Control logo size */
+  width: 75px;
+  object-fit: cover; /* Prevent distortion */
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.navbar {
+  color: darkslategray;
+  display: flex; /* Use Flexbox for alignment */
+  justify-content: flex-end; /* Push the links to the right */
+  gap: 15px; /* Add space between links */
+}
+
+.nav-link {
+  color: white !important; /* Set the text color to white */
+}
+
+.nav-link:hover {
+  color: lightgray !important; /* Optional: Change color on hover */
+}
