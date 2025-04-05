@@ -4,7 +4,8 @@ header {
   display: flex; /* Flexbox for layout */
   align-items: center; /* Vertically align content */
   justify-content: space-between; /* Space out logo and navbar */
-  padding: 5px 50px 5px 50px;
+  flex-wrap: wrap;
+  padding: 10px 20px;
 }
 
 body {
