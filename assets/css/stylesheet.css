@@ -6,7 +6,6 @@ body {
 }
 
 header {
-  height: 100px;
   background-color: lightseagreen;
   display: flex;
   /* Flexbox for layout */
